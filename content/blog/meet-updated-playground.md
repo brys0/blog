@@ -10,41 +10,41 @@ date: 2023-04-17T00:00:01+04:00
 image: images/meet-updated-playground/cover.png
 ---
 
-After V first release, Playground was located at
+After V's first release, V Playground was located at
 [vlang.io/play (archive.org link, August, 25, 2019)](https://web.archive.org/web/20190825140332/vlang.io/play),
-it was simple, with several examples.
+it was very simple, and also contained several examples.
 
-The next version of playground was already located at
+Next, a more advanced version of playground was then created at
 [play.vlang.io (archive.org link, September, 22, 2021)](https://web.archive.org/web/20210922135352/http://play.vlang.io/).
-In this version, user can change the theme, make the code smaller or larger.
+In this version of V Playground users could change the theme, and adjust the font size, making it more accessible and easy to use.
 
-This playground
+Following the previous update of V Playground, we subsequently
 [returned to online](https://twitter.com/v_language/status/1583480823151329280)
 October, 21 2022.
 
-It had problems, from a slow and inconvenient editor to a look I did not like.
-In two days I updated appearance, improved editor, and on October 25, 2022, the new
-playground was
+This change came with several problems, from a slow and inconvenient editor, to an appearance I generally disliked.
+In two days I created a new updated appearance, improved editor, and by October 25, 2022, the new
+V playground was
 [launched](https://discord.com/channels/592103645835821068/592723761812209664/1034225971324256319).
 
-Since then, playground has not changed much, and its version on
+Since then, V playground has not changed much, 
 [play.vlang.io](https://play.vlang.io)
-remained almost the same as it was after my redesign.
+remained nearly the same design as it was from when I had updated it.
 
-At some moment, playground was built under WASM, allowing the code to run directly in the browser
-without having to send it to the server.
-It’s still opening, but it’s not working for me.
+After some time, playground was built under WASM, greatly improving the speed of execution by allowing the code to run directly in the browser,
+without having to send code to a server for compilation, and execution.
+The website for V Playground with WASM seems to be online, but it’s not working for me.
 It can be found at [v-wasm.vercel.app](https://v-wasm.vercel.app).
 
 ## Embeddable playground
 
-Back in early 2023, I had the idea to make an embedded playground that could easily be integrated
-into any site, such as documentation or blog.
+Back in early 2023, I had an idea to make a version of V Playground that was embedded, that would mean V Playground could easily be integrated
+into any site, such as a V documentation website, or just a simple blog.
 
-This is a separate project that can be found on GitHub:
+The code for V Playground that is embedded is currently separate project that can be found on GitHub:
 [vlang-association/playground-component](https://github.com/vlang-association/playground-component)
 
-You could already see it in action in the documentation or blog:
+You could already see it in action in the V documentation pages here at VOSCA, or blog pages here as well:
 
 ```v {play=true}
 fn main() {
@@ -53,7 +53,7 @@ fn main() {
 }
 ```
 
-Thanks to it, we made our blog and documentation interactive!
+Thanks to it, we made VOSCA's blog pages and V documentation interactive!
 
 ## New Playground
 
